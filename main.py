@@ -10,7 +10,7 @@ from telegram.ext import (
 # CONFIGURATION
 # ========================
 import os
-BOT_TOKEN = os.getenv("7984690320:AAE-27oCNYE0IX8ylg0Z0Z9k7_-kYdST06s")  # replace with your token
+BOT_TOKEN = os.getenv("BOT_TOKEN","7984690320:AAE-27oCNYE0IX8ylg0Z0Z9k7_-kYdST06s")  # replace with your token
 ALLOWED_CREATORS = {5982449237, 987654321, 5932446309, 5912536321}  # replace with Telegram user IDs
 
 # group_games: each group can have its own game
